@@ -7,10 +7,20 @@ body {
   text-align: center;
   font-size: 3rem;
 }
+
 .personal-info {
   text-align: center;
 }
 
 .personal-info li {
   display: inline-block;
+}
+
+.skills-container {
+  display: flex;
+  margin: 0 5% 0 10%;
+}
+
+.skills-container article {
+  width: 50%;
 }
